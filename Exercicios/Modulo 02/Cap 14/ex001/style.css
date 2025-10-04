@@ -1,0 +1,79 @@
+@charset "UTF-8";
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #9fc131, #dbf227, #d6d58e);
+}
+
+main {
+  background-color: white;
+  border-radius: 19px;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 5px 5px 10px #929161;
+}
+
+h1 {
+  color: #042940;
+  text-align: center;
+  text-shadow: 1px 1px 3px #063a5a;
+}
+
+h2 {
+  color: #005c53;
+}
+
+p {
+  text-align: justify;
+}
+
+button{
+  border-radius: 30px;
+  /*Arredondar*/
+  width: 250px;
+  /*Comprimento*/
+  height: 60px;
+  /*Altura*/
+  box-shadow: 1px 1px 10px #00a191;
+  /*Sombra*/
+
+
+  /* Font-Style -> font weight - font size -> font-familly*/
+  font: 100 1em "work Sans", Helvetica, Sans-serif;
+
+  background-color: #005c53;
+  /*Cor do fundo*/
+  border-color: #00a191;
+  /*cor da borda*/
+  color: #fff;
+  /*cor do texto*/
+  text-align: center;
+  /*alinhamento do texto*/
+  padding: 20px;
+  /*Prenchimento interno(margem) entre borda e conteudo*/
+  margin: auto;
+  /*Margem fora do elemento diferentemente do Padding que é de dentro do elemento*/
+  transition: all 0.3s ease;
+  /*Transição*/
+
+  
+}
+
+
+
+#butao{
+  display: flex;
+  justify-content: center; /* alinha horizontalmente */
+  align-items: center; /* alinha verticalmente */
+  
+}
+
+button:hover{
+  display: block; 
+  border-color: #063a5a; /* cor da borda*/
+  transform: rotate(2.5deg); /* faz reboladinha 5 graus*/
+  
+}

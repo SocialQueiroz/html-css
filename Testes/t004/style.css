@@ -1,0 +1,57 @@
+/*
+em HTML é ID - em CSS é # ( somente um elemento ) 
+em HTML é class - em CSS é . ( varzea )
+*/
+
+@font-face {
+    font-family: Ash;
+    src: url(Fontes/Ash.ttf);
+}
+
+@font-face {
+    font-family: Bst;
+    src: url(Fontes/BadlyStamped.ttf); 
+}
+
+@font-face {
+    font-family: lmc;
+    src: url(Fontes/La\ Machine\ Company.ttf);
+}
+
+@font-face {
+    font-family: punk;
+    src: url(Fontes/Punk\ Typewriter.otf);
+}
+
+
+body{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    align-items: center;
+    padding: auto;
+}
+
+
+p{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    
+}
+h1{
+    font-family: lmc; 
+    font-size: 5em;
+    text-align: center;
+    
+    
+}
+
+.titulo{
+text-align: center;
+margin: auto;
+padding: auto;
+align-items: center;
+font-size: 5em;
+font-weight: bolder;
+}

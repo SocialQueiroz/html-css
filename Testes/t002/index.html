@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Educacional Completo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho da página com navegação -->
+  <header>
+    <h1>Aprenda HTML5 do Zero ao God</h1>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#conceitos">Conceitos</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main>
+
+    <!-- Seção inicial -->
+    <section id="inicio">
+      <h2>Bem-vindo!</h2>
+      <p>Este site foi criado para ensinar HTML5 de forma prática e explicada. Cada bloco de código e estrutura aqui tem comentários embutidos para que você aprenda com profundidade.</p>
+    </section>
+
+    <!-- Seção sobre conceitos fundamentais -->
+    <section id="conceitos">
+      <h2>Conceitos Fundamentais</h2>
+
+      <!-- Card com explicação de estrutura básica -->
+      <div class="card">
+        <h3>Estrutura Mínima de um Documento HTML</h3>
+        <p>Todo HTML começa com <code>&lt;!DOCTYPE html&gt;</code> seguido das tags <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code>.</p>
+      </div>
+
+      <!-- Card com tags de texto -->
+      <div class="card">
+        <h3>Tags de Texto</h3>
+        <p>Use <code>&lt;h1&gt; a &lt;h6&gt;</code> para títulos, <code>&lt;p&gt;</code> para parágrafos, <code>&lt;br&gt;</code> para quebra de linha e <code>&lt;strong&gt;</code> para destacar.</p>
+      </div>
+
+      <!-- Card com listas -->
+      <div class="card">
+        <h3>Listas</h3>
+        <p>Você pode usar listas ordenadas <code>&lt;ol&gt;</code> ou não ordenadas <code>&lt;ul&gt;</code> com itens <code>&lt;li&gt;</code>.</p>
+      </div>
+
+      <!-- Card com imagens e vídeos -->
+      <div class="card">
+        <h3>Mídia</h3>
+        <p>Imagens usam a tag <code>&lt;img src="" alt=""&gt;</code>, vídeos <code>&lt;video&gt;</code> e áudio <code>&lt;audio&gt;</code>.</p>
+      </div>
+
+      <!-- Card com semântica -->
+      <div class="card">
+        <h3>Semântica</h3>
+        <p>Use tags como <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code> e <code>&lt;footer&gt;</code> para dar significado ao conteúdo.</p>
+      </div>
+
+    </section>
+
+    <!-- Seção de projetos -->
+    <section id="projetos">
+      <h2>Exemplos de Projetos</h2>
+
+      <article class="card">
+        <h3>Landing Page</h3>
+        <p>Uma página de apresentação com imagem de fundo, título chamativo e botão de ação.</p>
+      </article>
+
+      <article class="card">
+        <h3>Portfólio Pessoal</h3>
+        <p>Uma estrutura com <code>&lt;section&gt;</code> para separar projetos, usando <code>&lt;div class="projeto"&gt;</code> para cada item.</p>
+      </article>
+
+      <article class="card">
+        <h3>Blog com Articles</h3>
+        <p>Estrutura usando múltiplos <code>&lt;article&gt;</code> com títulos, textos e imagens para simular posts.</p>
+      </article>
+
+    </section>
+
+    <!-- Formulário de contato -->
+    <section id="contato">
+      <h2>Contato</h2>
+      <div class="formulario">
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <p>&copy; 2025 – Site Educacional HTML5. Criado com fins didáticos.</p>
+  </footer>
+
+</body>
+</html>

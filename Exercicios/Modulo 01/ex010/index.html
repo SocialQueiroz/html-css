@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando com links</title>
+  </head>
+  <body>
+    <h1>Usando links externos</h1>
+    <p>
+      Você pode acessar o meu
+      <a
+        href="https://github.com/gustavoguanabara"
+        target="_blank"
+        rel="external"
+        >repositorio publico no Github</a
+      >
+    </p>
+    <p>
+      Você também pode acessar o meu
+      <a
+        href="https://www.youtube.com/c/CursoemV%C3%ADdeo"
+        target="_blank"
+        rel="external"
+        >canal gratuito no YouTube</a
+      >
+    </p>
+    <!--Target="blank" rel="externos" é para o site não sobrepor o seu anterior-->
+    <h1>Usando links internos</h1>
+    <p>
+      Esta é a primeira pagina, se você quiser, pode acessar tambem a minha
+      <a href="pag002.html" rel="next" target="_self">segunda Pagina</a>
+    </p>
+    <p>
+      Você também pode acessar a nossa
+      <a href="Noticias/pag003.html" rel="next" target="_self"
+        >página de notícias</a
+      >
+    </p>
+
+    <h1>Links para Download</h1>
+    <ul>
+      <li>
+        <a
+          href="livro/01 - História do JavaScript.pdf"
+          download="01 - História do JavaScript.pdf"
+          type="application/pdf"
+          >Baixar o JSbook em PDF</a
+        >
+      </li>
+      <li>
+        <a
+          href="livro/01 - História do JavaScript.zip"
+          download="01 - História do JavaScript.zip"
+          >Baixar o JSbook em ZIP</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
