@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste de Imagem de fundo</title>
+    <style>
+      :root {
+        --cian1: #0fc2c0;
+        --cian2: #0caba8;
+        --cian3: #008f8c;
+        --cian4: #015958;
+        --cian5: #023535;
+
+        --pink1: #5e1861;
+        --pink2: #914394;
+        --pink3: #c581c7;
+        --pink4: #f9d4fa;
+        --pink5: #fdbfff;
+
+        --gray1: #adc6cc;
+        --gray2: #739299;
+        --gray3: #385e66;
+        --gray4: #122d33;
+        --gray5: #082b33;
+      }
+
+      body {
+        background-image: url("imagens/pattern004.png");
+      }
+
+      .quadrado {
+        display: inline-block;
+        border: 1px solid black;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+      }
+
+      div#q1 {
+        background-color: var(--gray1);
+      }
+
+      div#q2 {
+        background-image: linear-gradient(
+          40deg,
+          var(--pink1),
+          var(--pink2),
+          var(--pink3),
+          var(--pink4),
+          var(--pink5)
+        );
+      }
+
+      div#q3 {
+        background-image: url("imagens/pattern001.png");
+      }
+
+      div#q4 {
+        background-image: url(imagens/pattern003.png);
+        background-size: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <div class="quadrado" id="q4"></div>
+  </body>
+</html>
